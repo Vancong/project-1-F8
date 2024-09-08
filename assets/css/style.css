@@ -39,6 +39,13 @@ a {
 .btn:hover {
     opacity: 0.9;
 }
+.fix-header {
+    padding-top: 26px;
+    background-color: #e6f0ff;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
 
 .content {
     width: 1110px;
@@ -47,7 +54,7 @@ a {
     margin-right: auto;
 }
 /* ============header ==================*/
-.header {
+.hero-wrap {
     background-color: #e6f0ff;
     height: 100vh;
     gap: 0px;
@@ -57,7 +64,8 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    padding: 12px;
+    /* background-color: orange; */
 }
 
 .navbar ul {
@@ -90,7 +98,7 @@ a {
 }
 
 .hero {
-    margin-top: 140px;
+    padding-top: 140px;
 }
 .hero .info {
     width: 51%;
